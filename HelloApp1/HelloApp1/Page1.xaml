@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloApp1.Page1">
+    <StackLayout x:Name="stackLayout" Spacing="8" Orientation="Horizontal">
+        <Label Text="Кавыршина Евгения" TextColor="Black"  />
+        <Label Text="ПКС-31" TextColor="Red" />
+        <ScrollView>
+            <StackLayout>
+                <Label Text="«Король и Шут» (КиШ) — российская панк-рок-группа, 
+                       создана в 1988 году в Ленинграде. Название появилось в 1990 году, 
+                       а до этого было — «Контора». Краткая биография: 
+                       Вошедшие в начальный состав группы : Друзья одноклассники — 
+                       Михаил Горшенев — «Горшок» (родился 7 августа в 1973 г., 
+                       основатель коллектива, автор текстов и музыки, вокал) — 
+                       Александр Щиголев — «Порутчик» (барабаны) —— Александр Балунов 
+                       — «Балу» (бас-гитара)." FontSize="23" />
+            </StackLayout>
+        </ScrollView>
+        <Image Source="Panda.png" />
+    </StackLayout>
+</ContentPage>
